@@ -29,13 +29,19 @@ a:hover { color: var(--background-color); background-color: var(--base-color); }
   margin: 20px auto; /* Add spacing and center the separator */
 }
 
-.menu {
-  display: flex; /* Use flexbox for layout */
+.header-container {
+  display: flex;
+  justify-content: flex-end; /* Align items to the right end */
   align-items: center; /* Vertically align content */
 }
 
+.menu {
+  /* Optional: remove flex: 1; if you don't want the menu to grow */
+  /* flex: 1; */
+}
+
 .header-image {
-  position: absolute; /* Absolute positioning for precise control */
+  position: absolute;
   left: 0;  /* Place image at the left edge of its container */
   margin-right: 15px;  /* Add spacing between image and menu (optional) */
 }
