@@ -29,19 +29,15 @@ a:hover { color: var(--background-color); background-color: var(--base-color); }
   margin: 20px auto; /* Add spacing and center the separator */
 }
 
-.header-container {
+.menu {
   display: flex; /* Use flexbox for layout */
   align-items: center; /* Vertically align content */
-  justify-content: space-between; /* Distribute items: image on left, menu on right */
+  justify-content: space-between; /* Put image on left, menu on right */
 }
 
-.header-image {
-  max-height: 50px; /* Adjust as needed */
-  margin-right: 10px; /* Optional spacing */
-}
-
-.menu {
-  /* Optional: flex: 1; to grow and fill remaining space */
+.menu img { 
+  max-height: 48px; /* Match the height you've set inline */
+  margin-right: 15px; /* Add spacing between image and menu items */
 }
 
 /**
