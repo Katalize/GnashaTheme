@@ -24,7 +24,7 @@ a:hover { color: var(--background-color); background-color: var(--base-color); }
 
 .dotted-line {
   border: none; /* Remove the default solid line */
-  border-top: 5px dashed #ccc; /* Replace with your desired color */
+  border-top: 1px dashed #ccc; /* Replace with your desired color */
   width: 100%; /* Adjust width as needed */
   margin: 20px auto; /* Add spacing and center the separator */
 }
