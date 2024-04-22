@@ -22,6 +22,11 @@ a { text-decoration: none; color: var(--link-color); }
 a:hover { color: var(--background-color); background-color: var(--base-color); }
 @media only screen and (max-device-width: 720px) { * { font-size: $mobile-font-size !important; } }
 
+.clickable-image {
+    width: 250px;
+    height: 200px;
+}
+
 .dotted-line {
   border: none; /* Remove the default solid line */
   border-top: 1px dashed #ccc; /* Replace with your desired color */
