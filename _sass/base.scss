@@ -22,8 +22,7 @@ a { text-decoration: none; color: var(--link-color); }
 a:hover { color: var(--background-color); background-color: var(--base-color); }
 @media only screen and (max-device-width: 720px) { * { font-size: $mobile-font-size !important; } }
 
-.clickable-image { 
-   .clickable-image {
+.clickable-image {
   /* Other styles you might have */
   object-fit: contain;
   width: 50px; /* Adjust width as needed */
