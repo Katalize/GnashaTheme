@@ -24,7 +24,7 @@ a:hover { color: var(--background-color); background-color: var(--base-color); }
 
 .clickable-image {
   /* Other styles you might have */
-  object-fit: cover;
+  object-fit: contain;
   display: block;
   padding: 0;
   width: 50px; /* Adjust width as needed */
