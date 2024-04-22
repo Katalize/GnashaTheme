@@ -30,16 +30,18 @@ a:hover { color: var(--background-color); background-color: var(--base-color); }
 }
 
 .header-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between; /* Distribute items */
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Vertically align content */
+  justify-content: space-between; /* Distribute items: image on left, menu on right */
 }
 
 .header-image {
-  /* Optional: remove absolute positioning styles if preferred:
-  position: absolute;
-  left: 0;
-  */
+  max-height: 50px; /* Adjust as needed */
+  margin-right: 10px; /* Optional spacing */
+}
+
+.menu {
+  /* Optional: flex: 1; to grow and fill remaining space */
 }
 
 /**
