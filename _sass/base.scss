@@ -31,19 +31,15 @@ a:hover { color: var(--background-color); background-color: var(--base-color); }
 
 .header-container {
   display: flex;
-  justify-content: flex-end; /* Align items to the right end */
-  align-items: center; /* Vertically align content */
-}
-
-.menu {
-  /* Optional: remove flex: 1; if you don't want the menu to grow */
-  /* flex: 1; */
+  align-items: center;
+  justify-content: space-between; /* Distribute items */
 }
 
 .header-image {
+  /* Optional: remove absolute positioning styles if preferred:
   position: absolute;
-  left: 0;  /* Place image at the left edge of its container */
-  margin-right: 15px;  /* Add spacing between image and menu (optional) */
+  left: 0;
+  */
 }
 
 /**
