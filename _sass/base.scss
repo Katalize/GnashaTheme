@@ -29,6 +29,11 @@ a:hover { color: var(--background-color); background-color: var(--base-color); }
   margin: 20px auto; /* Add spacing and center the separator */
 }
 
+p a {
+  display: inline-block; /* Treat links as inline blocks */
+  margin-right: 10px;   /* Add space between icons */
+}
+
 /**
  * Layout
  */
