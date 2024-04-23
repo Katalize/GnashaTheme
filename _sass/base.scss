@@ -67,7 +67,7 @@ a:hover { color: var(--background-color); background-color: var(--base-color); }
 
 .video-container iframe { /* More specific selector */
   max-width: 100;         /* Allow videos to shrink if needed */
-  height: 263px;          /* Adjust height if desired */
+  height: 300px;          /* Adjust height if desired */
 } 
 /**
  * Layout
