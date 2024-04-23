@@ -58,6 +58,12 @@ a:hover { color: var(--background-color); background-color: var(--base-color); }
   margin-right: 15px; /* Add spacing between image and menu items */
 }
 
+.video-container iframe {
+  display: inline-block;
+  width: 48%; /* Adjust width as needed (leave space for margins) */
+  margin: 1%; /* Adjust margin as needed */
+}
+
 /**
  * Layout
  */
