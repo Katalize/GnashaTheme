@@ -59,18 +59,16 @@ a:hover { color: var(--background-color); background-color: var(--base-color); }
 }
 
 .video-container {
-  display: flex; /* Enable flexbox layout */
-  justify-content: space-between; /* Distribute space between videos */
-  width: 95%;
+  display: flex; 
+  justify-content: space-between; 
+  width: 100%;
   min-width: 0;
 }
 
-.video-container iframe {
-    flex: 1; /* Videos take up equal available width */
-    margin: 0%; /* Optional: add spacing between videos */
-    min-width: 0;
-    justify-content: space-between;
-}
+.video-container iframe { /* More specific selector */
+  max-width: 50%;         /* Allow videos to shrink if needed */
+  height: 263px;          /* Adjust height if desired */
+} 
 /**
  * Layout
  */
