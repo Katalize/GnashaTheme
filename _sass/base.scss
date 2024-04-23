@@ -65,7 +65,7 @@ a:hover { color: var(--background-color); background-color: var(--base-color); }
 
 .video-container iframe {
     flex: 1; /* Videos take up equal available width */
-    margin: 0 px; /* Optional: add spacing between videos */
+    margin: 1 px; /* Optional: add spacing between videos */
 }
 
 /**
