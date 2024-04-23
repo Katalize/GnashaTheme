@@ -25,6 +25,8 @@ a:hover { color: var(--background-color); background-color: var(--base-color); }
 .headermain {
   display: flex; /* Use flexbox for layout */
   justify-content: space-between; /* Space between text and links */
+  margin: 2px;
+  margin-top: 0px;
   align-items: center;
 }
 
