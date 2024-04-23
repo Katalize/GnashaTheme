@@ -68,10 +68,12 @@ a:hover { color: var(--background-color); background-color: var(--base-color); }
 .video-container figcaption { 
   text-align: center; 
   margin-top: 10px; /* Adjust spacing as needed */
+  max-width: 100%;         /* Allow videos to shrink if needed */
+  height: 300px;   
 }
 
 .video-container iframe { /* More specific selector */
-  max-width: 100;         /* Allow videos to shrink if needed */
+  max-width: 100%;         /* Allow videos to shrink if needed */
   height: 300px;          /* Adjust height if desired */
 } 
 /**
