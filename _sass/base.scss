@@ -83,15 +83,23 @@ a:hover { color: var(--background-color); background-color: var(--base-color); }
 .video-container iframe { /* More specific selector */
   max-width: 100%;         /* Allow videos to shrink if needed */
   height: 300px;          /* Adjust height if desired */
-} 
 
 figure {
     width: 100%; /* Adjust as needed */
-    margin: 20px auto; /* Centers the figure */
+    margin: 0px auto; /* Centers the figure */
+    border: 0px solid #ddd; 
+    padding: 15px;
+    
+}
+
+figure img {
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
 
 figcaption {
-    text-align: left;
+    text-align: center;
     font-style: italic;
     font-size: 0.9em; /* Slightly smaller text */
     margin-top: 10px; 
