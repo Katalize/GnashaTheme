@@ -88,14 +88,7 @@ a:hover { color: var(--background-color); background-color: var(--base-color); }
 figure {
     width: 100%; /* Adjust as needed */
     margin: 20px auto; /* Centers the figure */
-    border: 1px solid #ddd; 
-    padding: 15px;
-}
-
-figure img {
-    max-width: 100%;
-    height: auto;
-    display: block;
+    border: 1px solid #ddd;
 }
 
 figcaption {
