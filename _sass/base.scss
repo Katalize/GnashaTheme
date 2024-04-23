@@ -22,13 +22,19 @@ a { text-decoration: none; color: var(--link-color); }
 a:hover { color: var(--background-color); background-color: var(--base-color); }
 @media only screen and (max-device-width: 720px) { * { font-size: $mobile-font-size !important; } }
 
+.headermain {
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Vertically center items */
+  justify-content: space-between; /* Space between text and links */
+}
+
 .clickable-image {
   /* Other styles you might have */
   object-fit: contain;
   display: inline-block;
   padding: 0;
-  width: 50px; /* Adjust width as needed */
-  height: 50px; /* Adjust height as needed */
+  width: 30px; /* Adjust width as needed */
+  height: 30px; /* Adjust height as needed */
 }
 
 
