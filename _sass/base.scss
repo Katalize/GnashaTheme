@@ -66,13 +66,13 @@ a:hover { color: var(--background-color); background-color: var(--base-color); }
 }
 
 .video-container figcaption { 
-  text-align: center; 
+  text-align: right; 
   margin-top: 10px; /* Adjust spacing as needed */
   max-width: 100%;         /* Allow videos to shrink if needed */
-  height: 300px;  
+  height: 20px;  
   display: flex;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   unicode-bidi: isolate;
