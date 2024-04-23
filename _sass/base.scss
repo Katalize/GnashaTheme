@@ -61,11 +61,12 @@ a:hover { color: var(--background-color); background-color: var(--base-color); }
 .video-container {
     display: flex; /* Enable flexbox layout */
     flex-wrap: wrap; /* Allow items to move to the next line if needed */
+    width: 100%
 }
 
 .video-container iframe {
     flex: 1; /* Videos take up equal available width */
-    margin: 1 px; /* Optional: add spacing between videos */
+    margin: 10 px; /* Optional: add spacing between videos */
 }
 
 /**
