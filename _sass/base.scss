@@ -64,6 +64,12 @@ a:hover { color: var(--background-color); background-color: var(--base-color); }
   width: 100%;
   min-width: 0;
 }
+.video-container-text {
+  display: flex; 
+  justify-content: space-between; 
+  width: 100%;
+  min-width: 0;
+}
 
 .video-container figcaption { 
   text-align: right; 
