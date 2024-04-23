@@ -25,17 +25,18 @@ a:hover { color: var(--background-color); background-color: var(--base-color); }
 .headermain {
   display: flex; /* Use flexbox for layout */
   justify-content: space-between; /* Space between text and links */
+  align-items: center;
 }
 
 .clickable-image {
   /* Other styles you might have */
   object-fit: contain;
+  align-items: center;
   display: inline-block;
   padding: 0;
   width: 30px; /* Adjust width as needed */
   height: 30px; /* Adjust height as needed */
 }
-
 
 .dotted-line {
   border: none; /* Remove the default solid line */
