@@ -32,9 +32,7 @@ a:hover { color: var(--background-color); background-color: var(--base-color); }
 
 audio {
     width: 100%; 
-    max-width: 100%; /* Prevent oversized player */  
-    padding: 15px; 
-    border-radius: 2px;
+    max-width: 100%; /* Prevent oversized player */
 }
 
 .clickable-image {
