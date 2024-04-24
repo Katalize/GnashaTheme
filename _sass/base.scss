@@ -30,6 +30,13 @@ a:hover { color: var(--background-color); background-color: var(--base-color); }
   align-items: center;
 }
 
+audio {
+    width: 100%; 
+    max-width: 100%; /* Prevent oversized player */
+    background-color: #ddd;  
+    padding: 15px; 
+}
+
 .clickable-image {
   /* Other styles you might have */
   object-fit: contain;
