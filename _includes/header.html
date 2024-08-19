@@ -1,7 +1,7 @@
 {%- assign page_paths = site.header_pages | default: default_paths -%}
 <header>
   <div class="menu">
-     <img src="https://github.com/GnashaMusic/gnashamusic.github.io/blob/main/assets/images/header.png?raw=true" alt="header image" style="height: 108px; width:192px;">  <ul>
+     <img src="https://github.com/GnashaMusic/gnashamusic.github.io/blob/main/assets/images/header.png?raw=true" alt="header image" style="height: 192px; width:192px;">  <ul>
       {%- for path in page_paths -%}
         {%- assign my_page = site.pages | where: "path", path | first -%}
         {%- if my_page.title -%}
